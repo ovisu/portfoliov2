@@ -1,0 +1,29 @@
+@import url(/css/header.css);
+@import url(/css/introducao.css);
+@import url(/css/hab.css);
+@import url(/css/formacao.css);
+@import url(/css/proj.css);
+@import url(/css/footer.css);
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Montserrat:wght@400;500;600;700&display=swap");
+
+body {
+  margin: 0px;
+  padding: 0px;
+  background-color: #26261f;
+}
+a {
+  text-decoration: none;
+}
+header {
+  height: 70px;
+}
+img {
+  max-width: 100%;
+}
+.intro-hab {
+  margin-top: 70px;
+  display: grid;
+  grid-template-columns: 40vw 40vw;
+  justify-content: space-evenly;
+}

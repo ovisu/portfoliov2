@@ -1,0 +1,42 @@
+header {
+  background-color: #191914;
+
+  display: flex;
+  position: fixed;
+  top: 0px;
+  width: 100vw;
+  justify-content: space-around;
+  gap: 23.5vw;
+  align-items: center;
+  border-bottom: 1px solid #e0e277;
+  z-index: 1000;
+}
+ul {
+  margin-right: 6.5vw;
+}
+
+.logo {
+  margin-top: 0px;
+}
+
+.menu ul,
+li {
+  display: flex;
+  gap: 30px;
+  list-style: none;
+  text-decoration: none;
+  align-items: center;
+}
+.menu a {
+  font-family: Montserrat;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: #adad93;
+}
+.menusep::after {
+  content: "";
+  width: 1px;
+  height: 50px;
+  background-color: #e0e277;
+  display: inline-block;
+}
