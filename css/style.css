@@ -1,9 +1,9 @@
-@import url(/css/header.css);
-@import url(/css/introducao.css);
-@import url(/css/hab.css);
-@import url(/css/formacao.css);
-@import url(/css/proj.css);
-@import url(/css/footer.css);
+@import url(./css/header.css);
+@import url(./css/introducao.css);
+@import url(./css/hab.css);
+@import url(./css/formacao.css);
+@import url(./css/proj.css);
+@import url(./css/footer.css);
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Montserrat:wght@400;500;600;700&display=swap");
 
