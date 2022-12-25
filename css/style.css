@@ -1,9 +1,9 @@
-@import url("https://github.com/ovisu/portfoliov2/blob/main/css/header.css");
-@import url("https://github.com/ovisu/portfoliov2/blob/main/css/introducao.css");
-@import url("https://github.com/ovisu/portfoliov2/blob/main/css/hab.css");
-@import url("https://github.com/ovisu/portfoliov2/blob/main/css/formacao.css");
-@import url("https://github.com/ovisu/portfoliov2/blob/main/css/proj.css");
-@import url("https://github.com/ovisu/portfoliov2/blob/main/css/footer.css");
+@import url("./header.css");
+@import url("./introducao.css");
+@import url("./hab.css");
+@import url("./formacao.css");
+@import url("./proj.css");
+@import url("./footer.css");
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Montserrat:wght@400;500;600;700&display=swap");
 
