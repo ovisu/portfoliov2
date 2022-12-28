@@ -1,10 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Montserrat:wght@400;500;600;700&display=swap");
 
+html {
+overflow-x: hidden;
+}
 body {
   margin: 0px;
   padding: 0px;
   background-color: #26261f;
+  overflow-x: hidden;
 }
 main {
   overflow-x: hidden;
