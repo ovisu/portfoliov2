@@ -24,7 +24,7 @@ img {
 }
 
 .intro-hab {
-  margin-top: 70px;
+  margin-top: 50px;
   display: grid;
   grid-template-columns: 40vw 40vw;
 
@@ -72,9 +72,36 @@ li {
   background-color: #e0e277;
   display: inline-block;
 }
+@media (max-width: 800px) {
+  .logo {
+    display: none;
+  }
+  header {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+}
+@media (max-width: 600px) {
+  header {
+    height: auto;
+  }
+  .menu ul,
+  li {
+    flex-direction: column;
+  }
+  .menusep::after {
+    display: none;
+  }
+}
 /* introducao */
 .introducao {
-  margin-top: 50px;
+  margin-top: 80px;
+}
+@media (max-width: 600px) {
+  .introducao {
+    margin-top: 200px;
+  }
 }
 .introducao p {
   margin: 5px 0px;
@@ -123,13 +150,15 @@ li {
   height: 350px;
   display: inline-block;
   position: absolute;
-  top: 75px;
+  top: 95px;
   right: 50vw;
   background-color: #e0e277;
 }
 /* habilidades */
+#habilidades {
+  margin-top: 45px;
+}
 #habilidades h1 {
-  /* font-size: 4rem; */
   font-family: Montserrat;
   margin-top: 40px;
   color: #fdfbe2;
@@ -144,6 +173,7 @@ li {
 }
 .hab-container {
   display: flex;
+  flex: 1;
   justify-content: space-evenly;
   align-items: center;
   margin-left: -40px;
